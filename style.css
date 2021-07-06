@@ -24,6 +24,12 @@ ul {
   justify-content: space-around;
 }
 
+.first-section {
+  background-image: url(images/bg.jpg);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
 .nav-anchor {
   text-decoration: none;
   color: deeppink;
@@ -31,8 +37,6 @@ ul {
 
 .all-section {
   display: flex;
-  background-image: url(images/bg.jpg);
-  background-repeat: no-repeat;
 }
 
 .adjust-div {
