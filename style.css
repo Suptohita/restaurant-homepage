@@ -8,11 +8,19 @@ body {
   background-color: rgb(240, 166, 203);
 }
 
-.nav-div {
-  background-color: rgb(195, 248, 248);
+/* .nav-div {
   margin-left: 15%;
   margin-right: 15%;
   border-radius: 20px;
+} */
+
+.nav-div{
+  background-color: rgb(253, 72, 175);
+  margin-top: -15px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  position: fixed;
+  width: 40%;
 }
 
 ul {
@@ -32,7 +40,7 @@ ul {
 
 .nav-anchor {
   text-decoration: none;
-  color: deeppink;
+  color: rgb(255, 255, 255);
 }
 
 .all-section {
@@ -120,7 +128,7 @@ span {
 }
 
 .third-section-div {
-  width: 22%;
+  flex: 1;
   margin-left: 6%;
   margin-right: 6%;
   margin-top: 4%;
@@ -129,7 +137,7 @@ span {
   padding-left: 1.5%;
   padding-top: 1%;
   padding-bottom: 1%;
-  box-shadow: 7px 7px 60px rgb(7, 3, 3);
+  box-shadow: 7px 7px 20px rgb(218, 217, 211);
 }
 
 .last-div {
